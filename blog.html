@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeTroupe - Blog</title>
+  <style>
+    /* Your existing styles from the template */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+     #header {
+      background-color: #2C3E50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    #menu {
+      background-color: teal;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-link {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu-link:hover {
+      background-color: #2C3E50;
+    }
+
+    @media (max-width: 768px) {
+      #menu {
+        flex-direction: column;
+      }
+    }
+
+    .content-section {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-section h3 {
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .content-section p {
+      color: #666;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .cta-button-container{
+      text-align: center;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2C3E50;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #34495E;
+    }
+
+    #footer {
+      background-color: #2C3E50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* New styles for the blog page */
+    #container {
+      padding: 20px;
+    }
+
+    .blog-post {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .blog-post h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .blog-post p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .blog-post .read-more {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #2C3E50;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease;
+    }
+
+    .blog-post .read-more:hover {
+      background-color: #34495E;
+    }
+
+    @media (max-width: 768px) {
+      .blog-post {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>CodeTroupe</h1>
+  </div>
+  <nav id="menu">
+    <a class="menu-link" href="index.html">Home</a>
+    <a class="menu-link" href="about.html">About</a>
+    <a class="menu-link" href="contact.html">Contact</a>
+    <a class="menu-link" href="#">Blog</a>
+  </nav>
+    <!-- Blog posts -->
+    <div class="blog-post">
+      <h2>Exploring the Latest JavaScript Frameworks</h2>
+      <p>Learn about the exciting new JavaScript frameworks that are making waves in the development community...</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <div class="blog-post">
+      <h2>Mastering CSS Grid Layout</h2>
+      <p>Discover how to create complex layouts with CSS Grid, and make your web designs more responsive and dynamic...</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <!-- More blog posts can be added here -->
+  </div>
+  <footer id="footer">
+    <p>&copy; 2023 CodeTroupe. All rights reserved.</p>
+  </footer>
+</body>
+</html>

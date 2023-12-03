@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodeTroupe - About Us</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  /* Shared Styles */
+
+  #header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #menu {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-link:hover {
+    background-color: #2C3E50;
+  }
+
+  @media (max-width: 768px) {
+    #menu {
+      flex-direction: column;
+    }
+  }
+
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* About Us Styles */
+
+  .page-content {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-image {
+    max-width: 49%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  /* Footer Styles */
+
+  #footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+  <div id="header">
+    <h1>CodeTroupe</h1>
+  </div>
+  <nav id="menu">
+    <a class="menu-link" href="index.html">Home</a>
+    <a class="menu-link" href="#">About</a>
+    <a class="menu-link" href="contact.html">Contact</a>
+    <a class="menu-link" href="blog.html">Blog</a>
+  </nav>
+  <div id="container">
+    <div class="page-content">
+      <h2>About Us</h2>
+      <p>Welcome to CodeTroupe, your go-to resource for all things programming and development. We are a passionate group of coders who believe in the power of learning and collaboration.</p>
+      <p>Our mission is to provide valuable content, tutorials, and resources to help individuals of all skill levels improve their coding prowess. Whether you're a beginner or an experienced developer, CodeTroupe is here to support your journey.</p>
+      <img src="about-image.jpg" alt="About Us Image" class="about-image">
+      <p>Join our community and unlock a world of knowledge. Connect with fellow developers, share your insights, and explore the latest trends in the tech industry.</p>
+    </div>
+  </div>
+  <footer id="footer">
+    <p>&copy; 2023 CodeTroupe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
